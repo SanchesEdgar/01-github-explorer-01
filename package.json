@@ -1,23 +1,28 @@
 {
-  "name": "01-github-explorer-01",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/SanchesEdgar/01-github-explorer-01.git",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.12",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^5.5.0",
-    "react-loader": "^2.4.7",
-    "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.3"
-  }
+   "name": "01-github-explorer-01",
+   "version": "1.0.0",
+   "main": "index.js",
+   "repository": "https://github.com/SanchesEdgar/01-github-explorer-01.git",
+   "license": "MIT",
+   "scripts": {
+      "dev": "webpack serve",
+      "build": "cross-env NODE_DEV=production webpack serve"
+   },
+   "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+   },
+   "devDependencies": {
+      "@babel/cli": "^7.16.8",
+      "@babel/core": "^7.16.12",
+      "@babel/preset-env": "^7.16.11",
+      "@babel/preset-react": "^7.16.7",
+      "babel-loader": "^8.2.3",
+      "cross-env": "^7.0.3",
+      "html-webpack-plugin": "^5.5.0",
+      "react-loader": "^2.4.7",
+      "webpack": "^5.67.0",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.7.3"
+   }
 }
