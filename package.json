@@ -1,0 +1,7 @@
+{
+  "name": "01-github-explorer-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SanchesEdgar/01-github-explorer-01.git",
+  "license": "MIT"
+}
