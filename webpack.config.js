@@ -17,6 +17,9 @@ module.exports = {
          template: path.resolve(__dirname, 'public', 'index.html'),
       }),
    ],
+   devServer: {
+      watchFiles: [path.resolve(__dirname, 'public', 'index.html')],
+   },
    module: {
       rules: [
          {
